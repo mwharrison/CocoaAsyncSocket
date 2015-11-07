@@ -466,6 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wno-error=unused-command-line-argument";
 			};
 			name = Debug;
 		};
@@ -485,6 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wno-error=unused-command-line-argument";
 			};
 			name = Release;
 		};
